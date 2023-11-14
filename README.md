@@ -1,3 +1,3 @@
-Hung push code len nhanh Hung
+Tui push roi a kiem tra thu di
 
 
