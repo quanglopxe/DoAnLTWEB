@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB_BANKHOAHOC_ONLINE" Class="QuanLyKhoaHocDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-US92MIO\QUANGLOPXE;Initial Catalog=DB_BANKHOAHOC_ONLINE;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DB_BANKHOAHOC_ONLINEConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="WebSettings" ConnectionString="Data Source=HOME-PC\SQLEXPRESS;Initial Catalog=DB_BANKHOAHOC_ONLINE;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DB_BANKHOAHOC_ONLINEConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.AdminAccount" Member="AdminAccounts">
     <Type Name="AdminAccount">
       <Column Name="AdminID" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />

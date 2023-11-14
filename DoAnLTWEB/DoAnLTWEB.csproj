@@ -13,12 +13,15 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DoAnLTWEB</RootNamespace>
     <AssemblyName>DoAnLTWEB</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,6 +42,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -94,6 +100,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\css\styleLesson.css" />
     <Content Include="Content\Images\Bootstrap.png" />
     <Content Include="Content\Images\CSharp.png" />
     <Content Include="Content\Images\CPlus.png" />
@@ -108,6 +116,7 @@
     <Content Include="Content\Images\Java.png" />
     <Content Include="Content\Images\LTW.png" />
     <Content Include="Content\Images\Python.png" />
+    <Content Include="Content\Images\registration.jpg" />
     <Content Include="Content\Images\TKW.png" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -160,6 +169,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LessonController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -174,6 +185,12 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="Views\Course\Course.cshtml" />
+    <Content Include="Views\User\Login.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\User\Register.cshtml" />
+    <Content Include="Views\User\EditProfile.cshtml" />
+    <Content Include="Views\Lesson\Lesson.cshtml" />
+    <Content Include="Views\Lesson\LessonDetail.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
