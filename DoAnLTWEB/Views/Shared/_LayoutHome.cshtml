@@ -10,7 +10,7 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-white" style="position:fixed;top:0;z-index:2;width:100%">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/Home/Index"><img src="~/Content/Images/logo.png" alt="CourseLogo" style="width:350px;height:70px"/></a>
+            <a class="navbar-brand" href="/Home/Index"><img src="~/Content/Images/logo.png" alt="CourseLogo" style="width:350px;height:70px" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -56,11 +56,34 @@
 
             <div class="col-2 p-0 mt-4">
                 <ul class="list-group" style="list-style-type: none; position: fixed; top: 65px; left: 0; z-index: 1;">
-                    @Html.Action("SideBar","Course")
-                    
+                    @Html.Action("SideBar", "Course")
+
                 </ul>
             </div>
             <div class="col-9 p-0 mt-4" style="min-height:300px; margin-left: 50px; margin-right: 50px;">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="~/Content/Images/hinh1.png" alt="Anh 1" class="d-block w-100" style="height:400px">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="~/Content/Images/hinh2.png" alt="Anh 2" class="d-block w-100" style="height:400px">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="~/Content/Images/hinh3.png" alt="Anh 3" class="d-block w-100" style="height:400px">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="~/Content/Images/hinh4.png" alt="Anh 3" class="d-block w-100" style="height:400px">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
                 <div style="margin-top: 10px">
                     @RenderBody()
                 </div>

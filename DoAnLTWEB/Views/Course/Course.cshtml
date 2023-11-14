@@ -1,7 +1,7 @@
 ﻿
 @{
     ViewBag.Title = "Course";
-    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
 }
 @model IEnumerable<DoAnLTWEB.Models.KhoaHoc>
 
@@ -14,7 +14,7 @@
                 <img class="card-img-top" src="~/Content/Images/@item.Picture" alt="Card image" style="width:100%">
                 <div class="card-body">
                     <p class="card-text">@item.TenKH</p>
-                    @*<a href="/Sach/Detail?MaSach=@item.MaSach&MaChuDe=@ViewBag.MaChuDe&MaNXB=@ViewBag.MaNXB" style="text-decoration:none">Xem chi tiết</a>*@
+                    <a href="/Lesson/Lesson?MaKH=@item.MaKH" style="text-decoration:none">Xem chi tiết</a>
                 </div>
             </div>
         </div>

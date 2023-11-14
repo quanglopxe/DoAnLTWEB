@@ -13,6 +13,10 @@ G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Deployment.xml
 G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Razor.xml
 G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Helpers.xml
 G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Mvc.xml
-G:\LTWEB\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.csprojResolveAssemblyReference.cache
 G:\LTWEB\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.dll
 G:\LTWEB\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.pdb
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\Microsoft.Web.Infrastructure.dll
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\Microsoft.Web.Infrastructure.xml
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.csproj.AssemblyReference.cache
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.csproj.CoreCompileInputs.cache
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.csproj.CopyComplete
