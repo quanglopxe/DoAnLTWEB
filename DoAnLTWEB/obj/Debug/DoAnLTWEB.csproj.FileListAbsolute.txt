@@ -1,0 +1,66 @@
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\DoAnLTWEB.dll.config
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\DoAnLTWEB.dll
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\DoAnLTWEB.pdb
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Helpers.dll
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Mvc.dll
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Razor.dll
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Deployment.dll
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.dll
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Razor.dll
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Razor.xml
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.xml
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Deployment.xml
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Razor.xml
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Helpers.xml
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Mvc.xml
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.dll
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.pdb
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\Microsoft.Web.Infrastructure.dll
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\bin\Microsoft.Web.Infrastructure.xml
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.csproj.AssemblyReference.cache
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.csproj.CoreCompileInputs.cache
+G:\LTWEB\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.csproj.CopyComplete
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\DoAnLTWEB.dll.config
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\DoAnLTWEB.dll
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\DoAnLTWEB.pdb
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Helpers.dll
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Mvc.dll
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Razor.dll
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Deployment.dll
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.dll
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Razor.dll
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Razor.xml
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.xml
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Deployment.xml
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Razor.xml
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Helpers.xml
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Mvc.xml
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\bin\Microsoft.Web.Infrastructure.xml
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.csproj.AssemblyReference.cache
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.csproj.CoreCompileInputs.cache
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.csproj.CopyComplete
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.dll
+E:\Project\C#Project\WebMVC\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.pdb
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\DoAnLTWEB.dll.config
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\DoAnLTWEB.dll
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\DoAnLTWEB.pdb
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Helpers.dll
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Mvc.dll
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Razor.dll
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Deployment.dll
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.dll
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Razor.dll
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Razor.xml
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.xml
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Deployment.xml
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Webpages.Razor.xml
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Helpers.xml
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\System.Web.Mvc.xml
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.csproj.AssemblyReference.cache
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.csproj.CoreCompileInputs.cache
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.csproj.CopyComplete
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.dll
+C:\Users\hungv\Downloads\DoAnLTWEB (1)\DoAnLTWEB\DoAnLTWEB\obj\Debug\DoAnLTWEB.pdb
