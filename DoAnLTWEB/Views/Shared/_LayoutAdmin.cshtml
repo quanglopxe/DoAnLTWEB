@@ -18,10 +18,7 @@
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/Course/Course">Trang chủ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Roadmap/Roadmap">Lộ trình</a>
+                        <a class="nav-link" href="/Course/AdminCourse">Quản lý khóa học</a>
                     </li>
                     @if (Session["User"] == null)
                     {
@@ -35,16 +32,10 @@
                     else
                     {
                         <li class="nav-item">
-                            <a class="nav-link" href="/User/EditProfile">Thông tin cá nhân</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="/User/Logout">Đăng xuất</a>
                         </li>
                     }
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Liên hệ</a>
-                    </li>
-                    @Html.Action("MyCoursesPartial", "MyCourses")
+                    
                 </ul>
                 <form class="d-flex">
                     <input class="form-control" type="text" placeholder="Search">
@@ -78,29 +69,6 @@
                 </ul>
             </div>
             <div class="col-9 p-0 mt-4" style="min-height:300px; margin-left: 50px; margin-right: 50px;">
-                <div id="demo" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2000">
-                            <img src="~/Content/Images/hinh1.png" alt="Anh 1" class="d-block w-100" style="height:400px">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                            <img src="~/Content/Images/hinh2.png" alt="Anh 2" class="d-block w-100" style="height:400px">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                            <img src="~/Content/Images/hinh3.png" alt="Anh 3" class="d-block w-100" style="height:400px">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                            <img src="~/Content/Images/hinh4.png" alt="Anh 3" class="d-block w-100" style="height:400px">
-                        </div>
-                    </div>
-
-                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
-                </div>
                 <div style="margin-top: 10px">
                     @RenderBody()
                 </div>

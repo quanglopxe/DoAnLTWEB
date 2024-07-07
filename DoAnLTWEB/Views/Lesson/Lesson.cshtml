@@ -1,5 +1,7 @@
 ﻿@{ 
     Layout = "~/Views/Shared/_LayoutUser.cshtml";
+    DoAnLTWEB.Models.KhoaHoc khoahoc = (DoAnLTWEB.Models.KhoaHoc) ViewData["KhoaHoc"];
+    bool isRegisterCourse = (bool)ViewData["IsRegisterCourse"];
 }
 
 @model IEnumerable<DoAnLTWEB.Models.BaiGiang>
@@ -28,7 +30,10 @@
                                 {
                                     <li class="justify-content-between align-items-center d-flex">
                                         <p><b>@baiGiang.ThuTuBaiHoc .</b> @baiGiang.TieuDeBG</p>
-                                        <a href="/Lesson/LessonDetail?MaBG=@baiGiang.MaBG" class="btn_2 text-uppercase">Xem chi tiết</a>
+                                        @if (isRegisterCourse)
+                                        {
+                                            <a href="/Lesson/LessonDetail?MaBG=@baiGiang.MaBG" class="btn_2 text-uppercase">Xem chi tiết</a>
+                                        }
                                     </li>
                                 }
                             </ul>
@@ -36,44 +41,47 @@
                     </div>
                 </div>
                 <div class="col-lg-4 right-contents">
-                    @if (Model.Count() > 0)
+                    @if (khoahoc != null)
                     {
                         <div class="sidebar_top">
                             <ul>
                                 <li>
                                     <a class="justify-content-between d-flex" href="#">
                                         <p>Tên khóa học</p>
-                                        <span class="color">@Model.First().KhoaHoc.TenKH</span>
+                                        <span class="color">@khoahoc.TenKH</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a class="justify-content-between d-flex" href="#">
                                         <p>Giảng Viên </p>
-                                        <span>@Model.First().KhoaHoc.GiangVien</span>
+                                        <span>@khoahoc.GiangVien</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a class="justify-content-between d-flex" href="#">
                                         <p>Giá </p>
-                                        <span>@Model.First().KhoaHoc.GiaKhoaHoc</span>
+                                        <span>@khoahoc.GiaKhoaHoc</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a class="justify-content-between d-flex" href="#">
                                         <p>Ngày bắt đầu </p>
-                                        <span>@String.Format("{0:dd/MM/yyyy}", Model.First().KhoaHoc.NgayBD)</span>
+                                        <span>@String.Format("{0:dd/MM/yyyy}", khoahoc.NgayBD)</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a class="justify-content-between d-flex" href="#">
                                         <p>Ngày kết thúc </p>
-                                        <span>@String.Format("{0:dd/MM/yyyy}", Model.First().KhoaHoc.NgayKT)</span>
+                                        <span>@String.Format("{0:dd/MM/yyyy}", khoahoc.NgayKT)</span>
                                     </a>
                                 </li>
 
                             </ul>
-                            <a href="#" class="btn_1 d-block">Đăng ký khóa học</a>
-                        </div>
+                            @if (!isRegisterCourse)
+                            {
+                                <a href="@Url.Action("ThemMyCourses", "MyCourses", new {@cID = khoahoc.MaKH, @strURL = Request.Url.ToString()})" class="btn_1 d-block">Đăng ký khóa học</a>
+                            }
+                            </div>
                     }
 
                     <h4 class="title">Đánh giá</h4>

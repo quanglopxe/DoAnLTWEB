@@ -18,13 +18,17 @@ namespace DoAnLTWEB.Controllers
             try
             {
                 NguoiDung nd = db.NguoiDungs.FirstOrDefault(t => t.TenND == nguoiDung.TenND && t.MatKhau == nguoiDung.MatKhau);
-
+                Session["User"] = nd;
                 if (nd == null)
                 {
                     return RedirectToAction("Error", "User", new { error = "Tên tài khoản hoặc mật khẩu không đúng." });
                 }
-                Session["User"] = nd;
-                return RedirectToAction("Index", "Home");
+                if(nd!=null && nd.Roles==true)
+                {
+                    return RedirectToAction("Index1", "Home");
+                }
+                else
+                    return RedirectToAction("Index", "Home");
             }
             catch (Exception ex)
             {
@@ -70,8 +74,9 @@ namespace DoAnLTWEB.Controllers
                 nd.Email = nguoiDung.Email;
                 nd.DienThoai = nguoiDung.DienThoai;
                 nd.NgaySinh = nguoiDung.NgaySinh;
+                Session["User"] = nd;
                 db.SubmitChanges();
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Courses", "Courses");
             }
             catch (Exception ex)
             {

@@ -6,17 +6,19 @@ using System.Web.Mvc;
 
 namespace DoAnLTWEB.Controllers
 {
-    public class HomeController : Controller
+    public class RoadmapController : Controller
     {
-        //
-        // GET: /Home/
-        public ActionResult Index()
+        public ActionResult Roadmap()
         {
             return View();
         }
-        public ActionResult Index1()
+        public ActionResult RoadmapFE()
         {
             return View();
         }
-	}
+        public ActionResult RoadmapBE()
+        {
+            return View();
+        }
+    }
 }
